@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angesom's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="main-header">
+        <div class="container">
+            <h1>Angesom Zeru</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to My Personal Website</h2>
+            <p>Explore my journey in software engineering, my latest projects, and how I can help you achieve your goals.</p>
+            <a href="#portfolio" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm Angesom Zeru, a passionate Software Engineer from Ethiopia. I'm currently pursuing my degree at Mekelle University. My expertise lies in Python, web development, and backend systems. I love solving real-world problems through coding and creating impactful projects.</p>
+            <div class="skills">
+                <h3>My Skills</h3>
+                <ul>
+                    <li>Python Development</li>
+                    <li>Backend Systems (Flask/Django)</li>
+                    <li>Frontend Development (HTML, CSS, JavaScript)</li>
+                    <li>Database Management (MySQL, SQLite)</li>
+                    <li>Problem Solving & Algorithms</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>My Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="project1.jpg" alt="Project 1">
+                    <div class="overlay">
+                        <h3>Project 1: Task Tracker</h3>
+                        <p>A Python Flask app to manage tasks with reminders and progress tracking.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2.jpg" alt="Project 2">
+                    <div class="overlay">
+                        <h3>Project 2: E-Commerce Platform</h3>
+                        <p>A feature-rich online store built with Flask and SQLite.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project3.jpg" alt="Project 3">
+                    <div class="overlay">
+                        <h3>Project 3: AI Chatbot</h3>
+                        <p>An intelligent chatbot for handling user queries and providing recommendations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Services I Offer</h2>
+            <ul class="services-list">
+                <li>
+                    <h3>Web Development</h3>
+                    <p>Building responsive and modern websites tailored to your needs.</p>
+                </li>
+                <li>
+                    <h3>Backend Solutions</h3>
+                    <p>Creating efficient backend systems for seamless functionality.</p>
+                </li>
+                <li>
+                    <h3>Database Design</h3>
+                    <p>Designing and optimizing databases for scalability and performance.</p>
+                </li>
+                <li>
+                    <h3>Consulting</h3>
+                    <p>Providing guidance and support for software projects and ideas.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+        <div class="container">
+            <h2>Latest Blog Posts</h2>
+            <div class="blog-grid">
+                <article class="blog-post">
+                    <h3>How I Built My First Web Application</h3>
+                    <p>Learn about my journey of creating my first Python web app using Flask.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+                <article class="blog-post">
+                    <h3>5 Tips for Becoming a Better Developer</h3>
+                    <p>Check out these essential tips to improve your programming skills.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+                <article class="blog-post">
+                    <h3>The Importance of Learning Algorithms</h3>
+                    <p>Why mastering algorithms is key to becoming a great software engineer.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to collaborate or ask questions, feel free to reach out to me using the form below:</p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Angesom Zeru. Built with ❤️ and passion.</p>
+        </div>
+    </footer>
+
+    <!-- Include JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
